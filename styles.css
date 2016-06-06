@@ -1,0 +1,41 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @simart
+ Unwatch 1
+  Star 0
+ Fork 216 APCSLowell/SampleAssignment
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: gh-pages Find file Copy pathSampleAssignment/styles.css
+8f36406  on Jun 9, 2014
+@simart simart added first name to index.html
+1 contributor
+RawBlameHistory     24 lines (17 sloc)  284 Bytes
+
+body {
+    background-color: rgb(200,200,200);
+    color: rgb(0,0,0);
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+#content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+header {
+	
+}
+
+footer {
+	font-style: italic;
+	font-size: 90%;
+}
+
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
