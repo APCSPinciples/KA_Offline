@@ -3,7 +3,7 @@ size(400, 400);
 frameRate(30);
 
 
-ellipse(50,50,50,50);
+ellipse(150,50,50,50);
 
 
 }};
