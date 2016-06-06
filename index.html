@@ -4,30 +4,22 @@
 		<title>Title</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles.css">
-		 
 	</head>
 	<body>
 		<header>
 			<h1>Header</h1>
 		</header>
-		
-	    
-    <p align="center"> 
-	<!--This draws the Procesing Canvas on the webpage -->
-      <canvas id="mycanvas"></canvas> 
-    </p>
-    <footer>
+                <p align="center"> 
+			<canvas id="mycanvas"></canvas> 
+    		</p>
+    		<footer>
 		    Footer
-	    </footer>
-	    <script src="processing-1.4.8.min.js"></script> 
-
- 
- <script src="KA_Offline.js"></script>
-  <script type="application/javascript">
-  //get the canvas that Processing-js will use
-  var canvas = document.getElementById("mycanvas"); 
-  //pass the function sketchProc (defined in myCode.js) to Processing's constructor.
-  var processingInstance = new Processing(canvas, sketchProc); 
- </script>
- </body>
+	    	</footer>
+	    	<script src="processing-1.4.8.min.js"></script> 
+		<script src="KA_Offline.js"></script>
+  		<script type="application/javascript">
+  			var canvas = document.getElementById("mycanvas"); 
+  			var processingInstance = new Processing(canvas, sketchProc); 
+ 		</script>
+ 	</body>
 </html>
