@@ -16,8 +16,13 @@
 		    Footer
 	    	</footer>
 	    	<script src="processing-1.4.8.min.js"></script> 
-		<script src="KA_Offline.js"></script>
+		
   		<script type="application/javascript">
+  			var sketchProc=function(processingInstance){ 
+  				with (processingInstance){
+  		        		<script src="KA_Offline.js"></script>
+  		        	}
+  		        };
   			var canvas = document.getElementById("mycanvas"); 
   			var processingInstance = new Processing(canvas, sketchProc); 
  		</script>
